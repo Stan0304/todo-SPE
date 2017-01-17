@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  manifest: sdk-for-nodejs
+  name: todo-SPE
+  host: todo-SPE
+  disk_quota: 1024M
